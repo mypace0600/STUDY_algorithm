@@ -51,6 +51,12 @@ public class QuickSort {
     }
 
     private int[] solution(int[] array){
+        /*
+        퀵정렬 : 분할정복 알고리즘으로 평균 속도가 O(N*logN) 입니다.
+                특정한 값을 기준으로 큰 숫자와 작은 숫자를 서로 교환한 뒤에 배열을 반으로 나누면 어떨까?
+                보통 기준값(pivot)을 맨 첫번째 값으로 설정함.
+                하지만 기준값을 잘못 설정하게 되면 O(N^2)로 느려진다.
+        */
         quickSort(array, 0, array.length - 1); // 끝 인덱스 수정
         return array;
     }
