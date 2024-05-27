@@ -1,8 +1,5 @@
 package com.study.algorithm.question;
 
-import com.study.algorithm.common.RandomNumbers;
-
-import java.util.Collections;
 
 public class Question2 {
 
