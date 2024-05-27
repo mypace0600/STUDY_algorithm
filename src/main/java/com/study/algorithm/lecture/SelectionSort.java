@@ -1,9 +1,7 @@
 package com.study.algorithm.lecture;
 
-import ch.qos.logback.classic.Level;
 import com.study.algorithm.common.RandomNumbers;
 
-import java.util.*;
 import java.util.logging.Logger;
 
 public class SelectionSort {
